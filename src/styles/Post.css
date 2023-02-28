@@ -1,0 +1,129 @@
+.post {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 15px;
+  background-color: white;
+  /* background-color: #5bccfc;
+    background-color: #fcde67; */
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0 0.75);
+}
+.post__top {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 15px;
+  
+}
+
+.post__avatar {
+  margin-right: 10px;
+  border: 2px solid lightgrey;
+}
+.post__topInfo > h3 {
+  font-size: medium;
+}
+.post__topInfo > p {
+  font-size: small;
+  color: gray;
+}
+
+.post__bottom {
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  padding: 0px 15px;
+}
+
+.post__image {
+  display: flex;
+  padding: 15px;
+  /* flex-wrap: wrap; */
+}
+.post__image > .pic__image {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.post__image > .pic__img {
+  width: 50%;
+  object-fit: cover;
+}
+/* .post__image > img{
+    width: 50%;
+    height: 20%;
+    object-fit: cover;
+
+} */
+.post__options {
+  padding-top: 10px;
+  border-top: 0.1px solid rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: grey;
+  cursor: pointer;
+  padding: 7px;
+}
+.post__optionscomment__open {
+  display: none;
+}
+.comment__input{
+  display: none;
+}
+
+.comment__inputtrue{
+  width: 90%;
+  padding: 10px;
+  margin:5px;
+  border-radius: 15px;
+  background-color: rgb(245, 245, 245);
+  outline: none;
+  border:1px solid rgb(245, 245, 245);
+}
+.form__inputtrue > button {
+  display: none;
+}
+.post__option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5px;
+  flex: 1;
+  background-color: #eff2f5;
+  border-radius: 10px;
+  margin: 2px 7px;
+}
+.post__option > p {
+  margin-left: 10px;
+}
+.post__option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
+.form__input{
+  display: none;
+}
+
+/* @media (max-width:1080px) {
+    .post {
+        background-color:injherit;
+    }
+} */
+@media screen and (max-width: 799px) {
+  .post {
+    border-radius: 0px;
+  }
+  .post__image > .pic__img {
+    height: 200px;
+  }
+  /* .post__top {
+    padding: 15px 5px;
+    
+  }
+  .post__bottom {
+
+    padding: 10px 5px;
+  } */
+  
+
+}

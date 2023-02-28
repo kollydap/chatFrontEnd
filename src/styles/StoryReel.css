@@ -1,0 +1,21 @@
+.storyReel {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding-top: 20px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 5px;
+  border-radius: 15px;
+  /* margin-bottom: 10px; */
+}
+@media (max-width:799px) {
+  .storyReel{
+      border-radius: 0px;
+  }
+}
+
+.storyReel::-webkit-scrollbar {
+  display: none;
+  /* margin-top: 100px; */
+}

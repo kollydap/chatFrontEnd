@@ -1,0 +1,11 @@
+.sidebar{
+    padding:25px 10px;
+    flex: 0.33;
+}
+
+@media screen and (max-width: 799px) {
+    .sidebar{
+        display: none;
+    }
+  
+}

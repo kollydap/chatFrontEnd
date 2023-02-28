@@ -1,0 +1,62 @@
+.req__list{
+    background-color: #fff;
+    padding: 10px;
+}
+.req{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.req__img>img{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    border:2px solid lightgrey;
+
+}
+.req__info{
+    margin: 10px;
+}
+.req__info > .req__user{
+font-size: 21px;
+
+}
+.req__info >.req__mut{
+    color: grey;
+    font-size: 18px;
+}
+.req__but{
+padding: 10px 0;
+}
+.req__but>button{
+    padding:7px ;
+   
+    width:110px;
+    font-weight: 700;
+    border-radius: 5px;
+
+    
+}
+.req__but > .confirm{
+    margin-right: 10px;
+    color:#fff;
+    border:2px solid #2e81f4;
+    background-color: #2e81f4;
+}
+.req__but > .delete{
+    background-color:lightgray;
+    border: 2px solid lightgray;
+}
+
+@media (max-width:370px) {
+    .req__but>button{
+        width:90px;
+    }
+    .req__info{
+        margin: 5px;
+    }
+}
